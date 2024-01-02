@@ -19,6 +19,8 @@ methods_long: "Deterministic fit of a compartmental SIHR model to weekly, CA reg
   \ parameter distributions. The ‘H’ compartment is divided into two compartments to ensure\
   \ the correct generation time for the Infectious compartment and proper fitting of the portion\
   \ of infectious individuals that are hospitalized. For each of the five CA regions, the model\
-  \ fit is inferred by an MCMC procedure and run forward at a weekly cadence."
+  \ fit is inferred by an MCMC procedure and run forward at a weekly cadence. \
+  \ 2024-01-02: Because the available data cover such a short time-period, we added a fit \
+  \ parameter for initial model time."
 
   
